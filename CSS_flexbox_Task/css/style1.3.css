@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9458d1;
+    margin: 20px 20px;
+    padding: 10px;
+}
+.left {
+    display: flex;
+    align-items: center;
+}
+.left .logo {
+    font-size: 35px;
+    font-weight: 900;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.left nav {
+    margin-left: 20px;
+}
+.left nav a{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #9458d1;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+.right .box{
+    background-color: #9458d1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.right .circle{
+    background-color: #9458d1;
+    padding: 15px 15px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0px 20px;
+} 

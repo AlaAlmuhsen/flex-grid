@@ -1,0 +1,18 @@
+.green {
+    border: 5px solid rgb(247, 111, 134);
+    width: 400px;
+    height: 400px;
+    background-color: greenyellow;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.yellow {
+    border: 5px solid red;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+}

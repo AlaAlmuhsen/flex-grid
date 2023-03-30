@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    background-color: gold;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.container .left{
+    display: flex;
+    margin-left: 20px;
+}
+.container .right{
+    display: flex;
+    margin-right: 20px;
+}
+.container .logo{
+    background-color: aqua;
+    color: blue;
+    padding: 10px 25px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container .section{
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+}

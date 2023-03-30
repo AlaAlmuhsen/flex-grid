@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 50px;
+    background-color: #cc07cc;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.main {
+    height: calc(100vh - 50px);
+    display: flex;
+}
+.aside {
+    flex: 1;
+    background-color: #4169e1;
+}
+.aside ol{
+    list-style-type: none;
+    margin-left: 15px;
+}
+.aside ol li{
+    padding: 15px 10px;
+    font-size: 18px;
+}
+.aside ol li a{
+    text-decoration: none;
+    color: white;
+}
+.article{
+    flex: 5;
+}
+.article .boxes {
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+.article .boxes .box {
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 6px 1px rgb(218, 218, 218);
+    padding: 20px;
+    box-sizing: border-box;
+}

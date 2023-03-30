@@ -1,0 +1,55 @@
+.container {
+    width: 940px;
+    margin: 20px auto;
+    text-align: center;
+    color: red;
+}
+.boxes {
+    display: grid;
+    grid-template-columns:  350px 350px 350px;
+    grid-template-rows: 150px 150px 150px;
+    gap: 10px;
+    justify-content: center;
+}
+.box {
+    background-color: blueviolet;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+.table {
+    margin-top: 10px;
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(2 , 48%);
+    grid-template-rows: repeat(3 , 30px);
+    justify-content: center;
+    gap: 2px 4px;
+    
+}
+.table .t {
+    background-color: rgb(185, 185, 185);
+}
+.stairs {
+    display: flex;
+    height: 86%;
+    justify-content: space-evenly;
+}
+.stairs div {
+    width: 32%;
+    height: 30px;
+}
+.stairs .s2{
+    align-self: center;
+}
+.stairs .s3{
+    align-self: flex-end;
+}
+.sections {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec {
+    background-color: #da8c5f;
+    width: calc(98% / 4);
+    padding: 5px 0px;
+}
